@@ -37,7 +37,7 @@ ul, li, a{
 
 .background{
     background-color: black;
-    opacity:0.5;
+    opacity:0.4;
     min-height: 500px;
     border-radius: 20px;
 }
@@ -61,9 +61,19 @@ ul, li, a{
       color: white;    
   }
 
+  .intro{
+      font-size:25px;
+      font-weight: 600;
+  }
+
+  h1{
+      color: black;
+      font-size: 30px;
+  }
+
 .second-part{
     background-color:#0186fd;
-    min-height:400px;
+    min-height:350px;
     margin-bottom: 10px;
 }
 .row-high{
@@ -83,7 +93,15 @@ ul, li, a{
     float: left;
     background-color: #abcfe7;
     min-height:400px;
-    width:15%;
+    width:15%;   
+}
+
+.col-left{
+    background-image: url(../img/img-1.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: contain;
+    
     
 }
 
