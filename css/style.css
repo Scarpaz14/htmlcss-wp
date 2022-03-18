@@ -99,10 +99,6 @@ ul, li, a{
 .col-left{
     background-image: url(../img/img-1.jpg);
     background-repeat: no-repeat;
-    background-position:center;
-    background-size: contain;
-    
-    
 }
 
 .col-center{
