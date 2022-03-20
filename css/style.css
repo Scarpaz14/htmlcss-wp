@@ -37,13 +37,12 @@ ul, li, a{
 
 .background{
     background-color: black;
-    opacity:0.4;
+    opacity:0.3;
     min-height: 500px;
     border-radius: 20px;
 }
 
 .hero{
-    background-color:#e1d67a ;
     min-height: 500px;
     margin-bottom: 20px;
     background-image: url("../img/banner.jpg");
@@ -53,31 +52,29 @@ ul, li, a{
     background-size: cover;
   }
 
-  .title{
-      width:50%;
-      min-height:200px;
-      padding-top:300px;
-      padding-left: 50px;
-      color: white;    
+.title{
+    width:50%;
+    min-height:200px;
+    padding-top:300px;
+    padding-left: 50px;
+    color: white;    
   }
 
-  .intro{
-      font-size:25px;
-      font-weight: 600;
-  }
+.intro{
+    font-size:30px;
+    font-weight: 400;
+}
 
-  h1{
-      color: black;
-      font-size: 30px;
+h1{
+    color: black;
+    font-size: 30px;
   }
 
 .second-part{
-    background-color:#0186fd;
     min-height:350px;
     margin-bottom: 10px;
 }
 .row-high{
-    background-color:#abcfe7;
     min-height:50px;
 }
 
@@ -89,30 +86,48 @@ ul, li, a{
 .col{
     padding:25px 0;
 }
+
 .col-left, .col-right{
     float: left;
-    background-color: #abcfe7;
     min-height:400px;
-    width:15%;   
+    width:15%;    
 }
 
-.col-left{
-    background-image: url(../img/img-1.jpg);
-    background-repeat: no-repeat;
+.img-1, .img-2, .img-3{
+    height:100%;
+    width: 100%;
+    object-fit: cover;
+    
+    border-radius: 20px;
+    opacity:0.8;
+}
+
+.opacity{
+    background-color: black;
+    height:200px;
+    border-radius: 20px ; 
+}
+
+h4{
+    padding: 10px 0;
+    color:black;
+}
+p{
+    overflow-wrap: break-word;
 }
 
 .col-center{
     float: left;
-    background-color: #abcfe7;
     min-height:400px;
     margin: auto 20px;
-    width: calc(70% - 40px);
-    
+    width: calc(70% - 40px); 
 }
 
-.row-bottom{
-    background-color:#8801fe;
+footer{
     min-height:40px;
+    text-align: center;
 }
 
-
+ .hearts{
+    color:red;
+}
